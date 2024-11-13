@@ -1,3 +1,5 @@
+
+
 .hero{
     position:relative;
 
@@ -13,7 +15,8 @@
     position: absolute;
     width: 100%;
     padding-left: 6%;
-    bottom:0;
+    bottom: -70px;
+    margin-top: 50px;
 }
 
 .caption-img{
@@ -70,5 +73,7 @@
 
 .more-cards{
     padding: 6%;
-    
+
+
 }
+

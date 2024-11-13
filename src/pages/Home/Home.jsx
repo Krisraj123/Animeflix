@@ -26,14 +26,16 @@ const Home = () => {
               <button  className='btn dark-btn'><img src={info_icon} alt=""></img>
                 More Info</button>
             </div>
-            <TitleCards/>
+
+            <TitleCards category={"popularMovies"}/>
+
           </div>
         </div>
-        <div className="more-cards">
-          <TitleCards title={"Blockbuster Movies"}/>
-          <TitleCards title={"Only on Netflix"}/>
-          <TitleCards title={"UpComing"}/>
-          <TitleCards title={"Top Pics For You"}/>
+        <div className="more-cards" >
+          <TitleCards title={"top14Rated"}  category="popularMovies" />
+          <TitleCards title={"Only on Netflix"} category="topRated"/>
+          <TitleCards title={"UpComing"} category="latest"/>
+          <TitleCards title={"Top Pics For You"} category="popularMovies"/>
         </div>
         <Footer/>
     </div>

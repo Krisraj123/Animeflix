@@ -1,16 +1,19 @@
 .title-cards{
+
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .title-cards h2{
+    margin-top:50px;
     margin-bottom: 8px;
+
 }
 
 .card-list{
     display: flex;
-    gap:10px;
-    overflow-x:scroll
+    gap:15px;
+    overflow-x:scroll;
 }
 
 .card-list::-webkit-scrollbar{
@@ -19,6 +22,7 @@
 
 .card-list img{
     width:240px;
+    height: 220px;
     border-radius: 4px;
     cursor: pointer;
 }
